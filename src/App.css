@@ -1,0 +1,61 @@
+.login-view {
+  height: 100%;
+  width: 100%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: rgb(248, 249, 250);
+}
+
+.login-form {
+  background: white;
+  border-radius: 10px;
+  width: 350px;
+}
+.main-view {
+  height: 100%;
+  width: 100%;
+}
+
+.form-control:focus {
+  border: 3px solid #80bdff !important;
+  box-shadow: none !important;
+}
+
+.card {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important; 
+}
+
+.forget-password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #007bff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.reg-login-btn {
+  width: 75% !important;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+
+button{
+  font-weight: bold !important;
+}
+
+.border {
+  margin: 0px 10px 10px 10px !important;
+  border: none !important;
+  height: 1.5px !important;
+  background: #dee2e6 !important;
+}
+
+.user-detail {
+  margin: 10px !important
+}
